@@ -1,0 +1,58 @@
+head{
+    background-color: brown;
+    
+}
+header{
+    
+}
+body{
+    background-color: #f5f5cd;
+    font: 400 15px/1.8 "lato", sans-serif;
+}
+.texto{
+    background-color: burlywood;
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+    text-align: center;
+    font-size: 20px;  
+}
+.logo{
+    text-align: center;
+    background-color: #f5f5cd;
+
+}
+.navegacao{
+    overflow: hidden;
+}
+.navegacao a{
+    float: right;
+    display: block;
+    color:rgb(173,173,173);
+    text-decoration: none;
+    text-align: right;
+    padding: 10px 10px;
+}
+.navegacao a:hover{
+    color: brown;
+    background-color: burlywood;
+}
+.sobre{
+    float: left;
+    margin: 15px 2px 25px 2px;
+    background-color: gainsboro;
+    width: 30.5%;
+    text-align: justify;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #232625;
+}
+.conteudo{
+    float: left;
+    margin: 15px 2px 25px 2px;
+    background-color: gainsboro;
+    width: 30.5%;
+    text-align: justify;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #232625;
+}

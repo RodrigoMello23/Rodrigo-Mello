@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #f5f5cd, burlywood);
+    color: brown;
+}
+
+.principal {
+    float: left;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.conteudo.lateral {
+    width: 162.3%;
+    height: 150px;
+    text-align: center;
+    margin: 10px 2px 25px 2px;
+    background-color: #f1bb85;
+}
+
+.conteudo.central {
+    width: 162.3%;
+    height: 150px;
+    text-align: center;
+    margin: 10px 2px 2px 2px;
+    background-color: #f1bb85;
+}
+
+.formulario{
+    width: 162.3%;
+    height: auto;
+    background: #f1bb85;   
+    
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.navegacao a {
+    float: right;
+    display: block;
+    color: brown;
+    text-decoration: none;
+    text-align: right;
+    padding: 10px;
+}
+
+.navegacao a:hover {
+    color: burlywood;
+    background-color: brown;
+}
+.inicio {
+    float: left;
+    margin: 15px 2px 25px 2px;
+    background-color: gainsboro;
+    width: 30.5%;
+    text-align: justify;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #232625;
+}
+.sobre{
+    float: left;
+    margin: 15px 2px 25px 2px;
+    background-color: gainsboro;
+    width: 30.5%;
+    text-align: justify;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #232625;
+}
+.rodape {
+    color: brown;
+    width: 90%;
+    height: auto;
+    margin-top: 40px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}

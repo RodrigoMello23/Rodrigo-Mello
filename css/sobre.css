@@ -1,0 +1,52 @@
+body {
+    font: 400 15px/1.8 "lato", sans-serif;
+    background-image: url('../img.jpeg');
+    position: relative;
+    height: 100%;
+    opacity: 0.85;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1, p {
+    background-color: burlywood;
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px;
+}
+.navegacao a {
+    float: right;
+    display: block;
+    color: brown;
+    text-decoration: none;
+    text-align: right;
+    padding: 10px;
+}
+.navegacao a:hover {
+    color: burlywood;
+    background-color: brown;
+}
+.inicio {
+    float: left;
+    margin: 15px 2px 25px 2px;
+    background-color: gainsboro;
+    width: 30.5%;
+    text-align: justify;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #232625;
+}
+.agendamento{
+    float: left;
+    margin: 15px 2px 25px 2px;
+    background-color: gainsboro;
+    width: 30.5%;
+    text-align: justify;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #232625;
+}
